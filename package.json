@@ -1,0 +1,27 @@
+{
+  "name": "asistente",
+  "version": "1.4.0",
+  "description": "Asistente personal por voz o teclado.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["asistente","Asistente","Personal","Youtube","Audio","Teclado","Consola"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "inquirer": "^7.3.3",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "say": "^0.16.0",
+    "voice-recognition": "^1.0.6",
+    "x-default-browser": "^0.4.0",
+    "ytdl-core": "^4.4.5"
+  },
+  "bin": {
+    "emp": "index.js"
+  }
+}
